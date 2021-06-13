@@ -1,5 +1,5 @@
 public class triangles {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         int N=20;
         int X=N;
         int Y=(N*2+1);
@@ -31,6 +31,7 @@ public class triangles {
                 }else{
                     System.out.print(":");
                 }
+                Thread.sleep(1);
             }
             L--;
             R++;
