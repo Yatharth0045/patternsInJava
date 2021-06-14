@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class triangles {
     public static void main(String[] args) throws Exception{
-        int N=20;
+        System.out.print("Enter the number of rows you want in the pattern: ");
+        int N=new Scanner(System.in).nextInt();
         int X=N;
         int Y=(N*2+1);
         int L=(Y/2+1);
