@@ -32,7 +32,7 @@ Output:
 ### Pattern 2: Triangles
 
 ```
-Configure N for changing the size of the triangle
+Input N as Integer values to define number of rows of triangle.
 
 For N as 20;
 javac triangles.java && java triangles
